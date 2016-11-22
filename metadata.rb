@@ -1,0 +1,12 @@
+name 'desktop-setup'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures a desktop for my usage.'
+long_description 'Installs/Configures my workstation for easier redeploy. YMMV...'
+version '0.1.0'
+
+depends    'yum', '>= 3.10.0'
+depends    'yum-epel', '>= 0.6.6'
+depends    'java'
+depends    'firewall'
